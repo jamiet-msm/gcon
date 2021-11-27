@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "gcon"
+version = "0.1.0"
+description = ""
+authors = ["Jamie Thomson <jamie.thomson@moneysupermarket.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+textual = "^0.1.12"
+google-cloud-functions = "^1.4.0"
+ipdb = "^0.13.9"
+black = "^21.11b1"
+argparse = "^1.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
